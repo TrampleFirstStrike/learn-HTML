@@ -1,0 +1,67 @@
+.solid-border {
+    border: 3px solid #000;
+    padding: 10px;
+    display: inline-block;
+    width: 98%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.shape-1 {
+    background-color: purple;
+    width: 40px;
+    height: 120px;
+    float: left;
+    position: relative;
+    top: 80px;
+}
+
+.shape-2 {
+    background-color: green;
+    width: 400px;
+    height: 200px;
+    float: left;
+    margin: 0 40px;
+}
+
+.shape-3 {
+    background-color: turquoise;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    float: left;
+}
+
+.dotted-border {
+    border: 3px dotted #000;
+    padding: 10px;
+    display: inline-block;
+    width: 98%;
+    margin-bottom: 20px;
+}
+
+.shadow {
+    background-color: blanchedalmond;
+    box-shadow: 10px 10px 5px grey;
+    width: 96%;
+    margin: 40px 20px;
+    min-height: 200px;
+}
+
+.drop-shadow {
+    border: 1px solid #eee;
+    margin: 0 auto 20px auto;
+    display: block;
+    box-shadow: 4px 4px 4px rgb(165, 165, 165);
+    width: 40%;
+}
+
+.text {
+    text-transform: uppercase;
+    color: rgb(23, 23, 139);
+    font-family: Cambria, Cochin, Georgia, Times, Times New Roman, serif;
+    letter-spacing: 2;
+    font-size: 30px;
+    text-align: center;
+    margin: 80px auto;
+}
